@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <style></style>
+  </head>
+  <body>
+    <h1 id="uoutput"></h1>
+    <h1 id="poutput"></h1>
+   
+    <script>
+      var user = localStorage.getItem('userkey');
+      var pass = localStorage.getItem('passkey');
+      document.getElementById('uoutput').innerHTML = "your username is " + user;
+      document.getElementById('poutput').innerHTML = "your password is " + pass;
+    </script>
+  </body>
+</html>
